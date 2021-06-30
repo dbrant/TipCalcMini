@@ -6,8 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/TipCalc">
+        android:supportsRtl="true">
         <activity android:name=".MainActivity"
             android:windowSoftInputMode="stateVisible">
             <intent-filter>
