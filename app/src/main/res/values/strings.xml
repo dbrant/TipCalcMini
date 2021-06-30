@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="percent_text">%1$d%%: %2$.2f</string>
+</resources>
