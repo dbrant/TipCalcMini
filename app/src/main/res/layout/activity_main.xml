@@ -12,8 +12,6 @@
         android:id="@+id/percentEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         android:inputType="numberDecimal"
         android:textSize="32sp"
         android:textStyle="bold"
