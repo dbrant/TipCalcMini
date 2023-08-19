@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.dmitrybrant.tipcalc"
-        minSdkVersion 3
-        targetSdkVersion 33
+        minSdk 3
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
