@@ -1,51 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:orientation="vertical">
 
     <EditText
         android:id="@+id/percentEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
+        android:layout_margin="8dp"
         android:textSize="32sp"
-        android:textStyle="bold"
-        tools:text="Lorem ipsum"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/percentView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_margin="8dp"
         android:textSize="24sp"
-        tools:text="Lorem ipsum"/>
+        tools:text="1"/>
 
     <TextView
         android:id="@+id/percentView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_margin="8dp"
         android:textSize="24sp"
-        tools:text="Lorem ipsum"/>
+        tools:text="2"/>
 
     <TextView
         android:id="@+id/percentView20"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_margin="8dp"
         android:textSize="24sp"
-        tools:text="Lorem ipsum"/>
+        tools:text="3"/>
 
-    </LinearLayout>
-
-</FrameLayout>
+</LinearLayout>
