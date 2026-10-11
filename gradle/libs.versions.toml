@@ -1,0 +1,17 @@
+[versions]
+agp = "9.4.1"
+gradle = "9.4.1"
+gradle-toolchains-foojay-resolver-convention = "1.0.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.2.1"
+espresso-core = "3.6.1"
+
+[libraries]
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+gradle-toolchains-foojay-resolver-convention = { id = "org.gradle.toolchains.foojay-resolver-convention", version.ref = "gradle-toolchains-foojay-resolver-convention" }

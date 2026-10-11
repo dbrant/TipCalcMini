@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    alias(libs.plugins.android.application)
 }
 
 android {
@@ -15,7 +15,7 @@ android {
 
     buildTypes {
         debug {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         release {
@@ -34,5 +34,7 @@ android {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13.2'
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.test.ext.junit
+    androidTestImplementation libs.espresso.core
 }
